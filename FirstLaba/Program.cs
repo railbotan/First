@@ -9,7 +9,7 @@ namespace Reflection.Differentiation
 {
     class Algebra
     {
-        static double Delta;
+        static double Delta = 0.01;
         static Expression<Func<double, double>> First;
         static Expression<Func<double, double>> Second;
         static Expression<Func<double, double>> Third;
